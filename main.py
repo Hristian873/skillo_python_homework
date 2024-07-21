@@ -46,7 +46,7 @@ else:
 some_string=input("Enter a sentence:")
 print (len(some_string))
 
-#task 10
+#task  10
 str1=input("Enter first sentence ")
 str2=input("Enter second sentence ")
 str3 = str1 + str2
