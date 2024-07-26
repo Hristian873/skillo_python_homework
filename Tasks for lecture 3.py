@@ -133,7 +133,7 @@ for a in range(0, 21):
             print(a)
             a += a
 
-#
+##
     # Exercise 12: Password Checker
 
     # Write a program that asks the user to enter a password. If the password is correct, print a message saying
