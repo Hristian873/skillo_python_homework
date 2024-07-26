@@ -132,7 +132,7 @@ for a in range(0, 21):
                 continue
             print(a)
             a += a
-
+##
 
     # Exercise 12: Password Checker
 
