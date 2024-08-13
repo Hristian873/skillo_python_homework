@@ -9,13 +9,11 @@ a=0
 b=0
 for Numbers in range(0,101):
 
-   if a%2 ==0:
-       b=a+b
-       print(a)
-
-   a += 1
-
+   if Numbers%2 ==0:
+       b=Numbers+b
+       print(Numbers)
 print(b)
+
 #Problem 2
 answer=int(input("Enter how much is 5 + 17: "))
 while answer != 22:
@@ -28,7 +26,7 @@ print("Good job right answer")
 for numbers in range(0,1001):
     if numbers %5==0 and numbers %3 == 0:
         print("FizzBuzz")
-    elif numbers %5== 0 and numbers %3 != 0:
+    elif numbers %5== 0:
         print("Buzz")
     elif numbers %3==0:
         print("Fizz")
@@ -43,8 +41,7 @@ while b != a:
         print("Too high")
     elif a > b:
         print("Too low")
-    a = random.randint(1, 100)
-    print(a)
+
     b = int(input("Enter number between 1 and 100: "))
 print("You guessed it right.")
 
@@ -68,5 +65,26 @@ numb=int(input("Enter a number"))
 for numbers in range(1,11):
     print(numb,"*", numbers,"=", numb*numbers)
 
-#Problem 7
-number = 13
+# #Problem 7
+number = 1
+if number > 1:
+ for i in range(2,(number//2)+1):
+
+   if (number % i)== 0:
+      print(number,"Is not a prime number")
+      break
+   else:
+    print(number,"Is prime number")
+    break
+else:
+    print("Is not prime Number")
+
+#Problem 8
+number = 5
+
+for i in range(1,number+1):
+
+    for j in range(1,i +1):
+        print(j, end=" ")
+
+    print()
